@@ -28,4 +28,38 @@ O *README* do projeto deverá conter as informações sobre como instalar e exec
 - Utilizar ES6 (amamos ES6 :heart_eyes:)
 - Utilizar Docker / Docker Compose
 
+### Configurando o Projeto com VueJs
+
+ Bom, vou usar uma aplicação básica com Vue.
+
+### Instalando o Vue Cli
+
+$ yarn global add vue-cli
+#ou
+$ npm install -g vue-cli
+
+#eu prefiro usar npm, apesar de dizerem que yarn é mais rápido e tende a resolver conflitos de versão e tem cache local mas...
+
+$ vue -V
+2.9.3
+#essa é a minha versão usada
+
+
+### Criando o Projeto
+
+ Uma vez que já tenho o basico instalado vamos ao restante:
+
+ $ mkdir hackernews
+ $ cd hacersnews
+ $ vue init webpack
+
+ Ai vem uma série de perguntas de como configurar o projeto que não vou detalhar aqui :p
+
+ e já nesse ponto já da para ter o projeto 'cru' rodando
+
+ $ npm run dev
+
+#navegando em http://localhost:8080
+
+
 *OBS:* Mesmo utilizando javascript para exibir os dados, é necessário que a API do github seja consumida pelo PHP. Num projeto real, isso não seria necessário, mas precisamos ver algum código backend :wink:
