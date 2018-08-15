@@ -11,6 +11,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "navbar": "^2.1.0",
+    "ng-navigation-bar": "0.0.4",
+    "styled-navbar-component": "^2.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

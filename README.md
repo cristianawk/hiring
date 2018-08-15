@@ -61,5 +61,13 @@ $ vue -V
 
 #navegando em http://localhost:8080
 
+### Segundo passo: Trabando com componentes HacerNews
+ Bom o primeiro que noto quando abro o HackerNews é a iônica barra de navegação laranja.
+ Então vou usar esse componente como exemplo 'Navbar' em /src/components/
+
+### Registrando o Componente Navbar
+ Para isso tenho que importa-lo em /src/App.vue 
+
+#nesse momento ja tenho o projeto rodando com o componente Navbar
 
 *OBS:* Mesmo utilizando javascript para exibir os dados, é necessário que a API do github seja consumida pelo PHP. Num projeto real, isso não seria necessário, mas precisamos ver algum código backend :wink:
